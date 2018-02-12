@@ -1,0 +1,26 @@
+{
+  "name": "klepihm",
+  "version": "1.0.0",
+  "description": "an interface to upload files",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "files",
+    "interface"
+  ],
+  "author": "zarrouk",
+  "license": "ISC",
+  "dependencies": {
+    "azure-storage": "^2.7.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "https": "^1.0.0",
+    "node-pre-gyp": "^0.6.39",
+    "opencv": "^6.0.0",
+    "package.json": "^2.0.1"
+  }
+}

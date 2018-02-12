@@ -1,0 +1,138 @@
+.btn:focus, .upload-btn:focus{
+    outline: 0 !important;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #4791D2;
+}
+
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#output {
+    text-align: left;
+}
+
+#output-panel {
+    height: 600px !important;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.upload-btn {
+    color: #ffffff;
+    background-color: #F89406;
+    border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+    color: #ffffff;
+    background-color: #FA8900;
+    border: none;
+}
+
+.download-btn {
+    color: #ffffff;
+    background-color: #F89406;
+    border: none;
+}
+
+.download-btn:hover,
+.download-btn:focus,
+.download-btn:active,
+.download-btn.active {
+    color: #ffffff;
+    background-color: #FA8900;
+    border: none;
+}
+
+.list-btn {
+    color: #ffffff;
+    background-color: #F89406;
+    border: none;
+}
+
+.list-btn:hover,
+.list-btn:focus,
+.list-btn:active,
+.list-btn.active {
+    color: #ffffff;
+    background-color: #FA8900;
+    border: none;
+}
+
+h4 {
+    padding-bottom: 30px;
+    color: #B8BDC1;
+}
+
+.glyphicon {
+    font-size: 5em;
+    color: #9CA3A9;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #68757E;
+}
+
+.panel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#upload-input {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 900px;
+
+    }
+}
+
+.col-xs-12 {
+    display: flex;
+}
+
+.col-xs-12>div {
+    width: 780px;
+    margin: 20px;
+}
+
+.list-blob {
+    width: 500px;
+    position:absolute;
+    right:70px;
+}
+
+.blob-name-insert {
+    position: relative;
+    top: 10px;
+
+
+}
+
+.listschroll {
+
+    width: 400px;
+    height: 390px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
